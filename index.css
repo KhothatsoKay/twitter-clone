@@ -1,16 +1,23 @@
+
+.sidebar{
+    height: 100vh;
+    position: fixed;
+}
 #sidebar svg{
-    height: 30px;
-    width: 30px;
-    stroke-width: 2px;
+    height: 29px;
+    width: 26px;
 }
 #sidebar .nav-item{
-    margin-left: 35px;
-    margin-top: 5px;
+    margin-left: 85px;
+    
 }
 .tweet-button{
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 53px;
+    width: 53px;
+    margin-left: -12px;
+    background-color: rgb(3, 186, 252);
+    border: none;
 }
 .tweet-button svg {
     fill:  rgb(255, 255, 255);; 
@@ -34,4 +41,19 @@
  .nav-item:hover .item-title{
     visibility: visible;
 
+ }
+ .profile-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(52, 61, 70);
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 20px;
+ }
+ .profile-actions .profile-name{
+    font-size: 24px;
+    color: #fff;
  }
