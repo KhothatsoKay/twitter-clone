@@ -1,4 +1,13 @@
-svg{
-    height: 50px;
-    width: 50px;
+#sidebar svg{
+    height: 30px;
+    width: 30px;
+    stroke-width: 2px;
+}
+.tweet-button{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.tweet-button svg {
+    fill:  rgb(255, 255, 255);; 
 }
