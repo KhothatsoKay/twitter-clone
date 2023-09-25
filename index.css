@@ -448,7 +448,7 @@
 
     .main-container {
         margin-top: 60px;
-        width: 350px;
+        width: 370px;
         left: 0;
         padding: 10px;
     }
@@ -475,5 +475,8 @@
 
     .post-tweet-button {
         margin-left: -80px;
+    }
+    .post-image{
+        height: 250px;
     }
 }
