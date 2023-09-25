@@ -2,6 +2,7 @@
 .sidebar{
     height: 100vh;
     position: fixed;
+    width: 170px;
 }
 #sidebar svg{
     height: 29px;
@@ -56,4 +57,87 @@
  .profile-actions .profile-name{
     font-size: 24px;
     color: #fff;
+ }
+ .main-container{
+    padding: 10px;
+ }
+ .home-title{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: -60px;
+        margin-top: 5px;
+ }
+ .tweet-profile{
+    margin-right: auto;
+ }
+ .main-container input{
+    border: none;
+    margin-top: 7px;
+    font-size: 20px;
+ }
+ .post-tweet-section{
+    margin-top: 50px;
+    margin-left: -80px;
+ }
+ .nav-tabs{
+    margin-top: -10px;
+    margin-left: 100px;
+    border-radius: 0;
+ }
+ .nav-link.active, .nav-link {
+    border: none;
+}
+.nav-link.active{
+    border-bottom: 3px solid #1da1f2;
+    background-color: transparent;
+    color: #333;
+}
+
+.nav-link.active:hover {
+    background-color: #aeaeae; 
+    color: #333;
+    border: none;
+}
+ .nav-tabs .nav-item{
+    border: none;
+    width: 250px;
+    font-weight: bold;
+    color: black;
+ }
+
+ .post-tweet-tools{
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+ }
+ .post-tweet-tools svg{
+    height: 20px;
+    width: 20px;
+    fill: rgb(29, 155, 240)
+ }
+.tool-icons{
+    cursor: pointer;
+    margin-left: -10px;
+}
+.tool-title{
+    position:absolute;
+    font-size: 0.78rem;
+    background: black;
+    color: #fff;
+    opacity: 0.8;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    visibility: hidden;
+    z-index: 1;
+}
+.r-1cvl2hr:hover{
+    background-color: #c8c8c8;
+    border-radius: 50%;
+ }
+ .tool-icons:hover .tool-title{
+    visibility: visible;
+    margin-top: 25px;
+    margin-left: -25px;
  }
